@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+div {
+  background-color: #9dc9c8;
+  min-height: 100vh;
+  padding: 179px 0px 185px 122px;
+}
+h1 {
+  color: #000;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%; /* 55.762px */
+}
+h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  margin-top: 69px;
+}
+p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 81.108px */
+}
+ul {
+  display: flex;
+  margin-top: 83px;
+}
+ul li {
+  width: 294px;
+  margin-right: 70px;
+  list-style-type: none;
+}
+li h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  margin-bottom: 20px;
+}
+li p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 18.249px */
+}
+@media screen and (max-width: 1024px) {
+  div {
+    padding: 104px 0px 108px 71px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 14px;
+    margin-top: 41px;
+  }
+  p {
+    font-size: 46px;
+  }
+  @media screen and (max-width: 768px) {
+    div {
+      padding: 62px 0px 72px 35px;
+    }
+    H1 {
+      font-size: 26px;
+    }
+    h2 {
+      font-size: 12px;
+      margin-top: 23px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+}
